@@ -28,7 +28,7 @@ void loop() {
     pH= getPH(); 
     
     //check if pH is within safe range for system
-    if(pH < 6.0 || pH > 7.0){ 
+    if(pH < 6.0 || pH > 6.5){ 
         if (suppressNotifications == true) {
             suppressNotifications = false; //enable notifications
             Particle.publish("pH", String(pH, 2));
@@ -42,7 +42,7 @@ void loop() {
         }
     }
     //check if pH is back in safe range
-    else if (pH >= 6.0 && pH <= 7.0 && suppressNotifications == false) { 
+    else if (pH >= 6.0 && pH <= 6.5 && suppressNotifications == false) { 
         Particle.publish("pH", String(pH, 2));
         loopDelay = 10000; //increase loop delay
         suppressNotifications = true; //reduce redundant notifications
