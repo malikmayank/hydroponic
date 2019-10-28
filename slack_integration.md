@@ -1,6 +1,6 @@
 # Slack Integration
 
-The Particle Photon has a lot of great tutoritals for its sensor kit [here](https://docs.particle.io/tutorials/hardware-projects/maker-kit). There is a tutorial there with a video for a conference room monitor that uses slack integrating that is pretty similar to what I did. 
+The Particle Photon has a lot of great tutoritals for its sensor kit [here](https://docs.particle.io/tutorials/hardware-projects/maker-kit). There is a tutorial there with a video for a conference room monitor that uses slack integrating that is pretty similar to this project. 
 
 ### Setting up Slack
 1. Create the slack channel that you want to post messages in
