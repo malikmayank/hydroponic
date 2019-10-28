@@ -1,5 +1,5 @@
 # Sensor setup
-The pH sensor that I used was from DF Robot. It comes with a decent amount of documentation of its own, but it meant for Arduino. To set it up with Particle Photon is not very different. To set it up, use electrical wires to connect the sensor in to the Photon using this electrical diagram. The download link for the electrical diagam .fzz file is [here](https://github.com/malikmayank/hydroponic/blob/caitlin/phsensor_photon.fzz).
+The pH sensor that I used was from DF Robot. It comes with a decent amount of documentation of its own, but it is meant for Arduino. To set it up with Particle Photon is not very different. To set it up, use electrical wires to connect the sensor in to the Photon using this electrical diagram. The download link for the electrical diagam .fzz file is [here](https://github.com/malikmayank/hydroponic/blob/caitlin/phsensor_photon.fzz).
 
 <img src="pHSensorCloseUp.png" width="1000">
 <img src="pHSensor.png" width="1000">
