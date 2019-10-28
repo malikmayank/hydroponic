@@ -1,4 +1,4 @@
-# hydroponic
+# Automated Hydroponic Gardening System
 This repository contains the software to control a hydroponic system. This system integrates Particle Photon and a pH sensor, using IoT to deliver important messages to the user over Slack if any sensor measurements are found to be suboptimal for growing. For the user, the goal of the system is to build a sustainable growing system that would provide enough lettuce to support the salad needs of a family of four. For the builder (me), the goal was to explore my interdisciplinary skills and begin to narrow down and focus my attention on a specific career path by developing and building a project that integrates my technological skills with my interest in sustainability. Below, you can find detailed documentation of my daily progress on the project.
 
 ### Documentation
